@@ -1,0 +1,15 @@
+#pragma once
+#include <string>
+
+const int boardSize = 8;
+
+inline std::string board[boardSize][boardSize] = {
+    { "BR", "BN", "BB", "BQ", "BK", "BB", "BN", "BR" },
+    { "BP", "BP", "BP", "BP", "BP", "BP", "BP", "BP" },
+    { "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  " },
+    { "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  " },
+    { "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  " },
+    { "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  " },
+    { "WP", "WP", "WP", "WP", "WP", "WP", "WP", "WP" },
+    { "WR", "WN", "WB", "WQ", "WK", "WB", "WN", "WR"}
+};
